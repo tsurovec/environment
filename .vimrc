@@ -17,3 +17,10 @@ let @p = 'bPlde'
 map <C-h>h :%s/<C-R>=expand("<cword>")<CR>/
 " replace exactly word under cursor
 map <C-h>w :%s/\<<C-R><C-W>\>/
+
+call plug#begin()
+Plug 'tpope/vim-sensible'
+Plug 'scrooloose/nerdtree'
+" On-demand loading
+" Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
+" call plug#end()
