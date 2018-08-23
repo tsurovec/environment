@@ -21,6 +21,7 @@ map <C-h>w :%s/\<<C-R><C-W>\>/
 call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree'
+Plug 'tpope/vim-surround'
 " On-demand loading
 " Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 " call plug#end()
