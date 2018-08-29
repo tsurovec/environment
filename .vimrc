@@ -24,4 +24,4 @@ Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
 " On-demand loading
 " Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
-" call plug#end()
+call plug#end()
