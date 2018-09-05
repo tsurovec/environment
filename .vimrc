@@ -1,4 +1,4 @@
-colorscheme pablo 
+colorscheme ir_black 
 map <ESC>[1;5D b
 map <ESC>[1;5C e
 syntax on
