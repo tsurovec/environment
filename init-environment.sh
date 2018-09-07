@@ -4,7 +4,7 @@ this=$0
 resources_dir=$(readlink -f $this | xargs dirname)
 
 # ir_black colorscheme for vim
-[ ! -f ~/.vim/colors/ir_black.vim ] && curl -fLo ~/.vim/colors/ir_black.vim --create-dirs https://raw.githubusercontent.com/wesgibbs/vim-irblack/master/colors/ir_black.vim
+#[ ! -f ~/.vim/colors/ir_black.vim ] && curl -fLo ~/.vim/colors/ir_black.vim --create-dirs https://raw.githubusercontent.com/wesgibbs/vim-irblack/master/colors/ir_black.vim
 # .vimrc
 if [ -f ~/.vimrc ]
 then

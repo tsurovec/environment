@@ -1,4 +1,4 @@
-colorscheme ir_black 
+colorscheme murphy
 map <ESC>[1;5D b
 map <ESC>[1;5C e
 syntax on
