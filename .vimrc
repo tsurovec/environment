@@ -22,6 +22,8 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
+Plug 'davidhalter/jedi-vim'
+Plug 'itchyny/lightline.vim'
 " On-demand loading
 " Plug 'scrooloose/nerdtree', { 'on': 'NERDTreeToggle' }
 call plug#end()
